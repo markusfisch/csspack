@@ -1,0 +1,12 @@
+A collection of short solutions for compressing CSS data.
+
+Why? Because I searched for a simple and portable offline solution
+and couldn't find anything suitable.
+
+If you like to organize your style sheets in many files and use
+some kind of synchronization process (rsync, Makefile, etc.), you
+need a compressor that fits into that chain.
+
+Of course there are compression libraries in web frameworks, but
+since style sheets are mostly static, compression can be done
+before uploading.
