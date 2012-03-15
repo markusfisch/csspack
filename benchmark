@@ -28,10 +28,8 @@ do
 
 	[ "$DATA" ] || DATA=$D
 
-	if [[ $DATA != $D ]]
-	then
+	[[ $DATA != $D ]] &&
 		echo 'ERROR: DOES NOT MATCH!'
-	fi
 done
 
 echo
